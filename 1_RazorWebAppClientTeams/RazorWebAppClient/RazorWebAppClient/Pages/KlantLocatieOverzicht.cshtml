@@ -1,0 +1,41 @@
+﻿@page
+@model RazorWebAppClient.Pages.KlantLocatieOverzichtModel
+@{
+    var klanten = RazorWebAppClient.Data.Databank.Klanten;
+    var locaties = RazorWebAppClient.Data.Databank.Locaties;
+    var rowId = 0;
+}
+<div>
+    <h1>Klant locatie overzicht</h1>
+    <a asp-page="Klanten">Terug naar klanten</a>
+
+</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">KlantId</th>
+            <th scope="col">KlantNaam</th>
+            <th scope="col">LocatieId</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var klant in klanten)
+        {
+            rowId++;
+            <tr>
+                <th scope="row">@rowId</th>
+                <td>@klant.KlantId</td>
+                <td>@klant.KlantNaam</td>
+                @foreach (var locatie in locaties)
+                    {
+                     if (klant.LocatieId == locatie.LocatieId)
+                        {
+                        <td>@locatie.Gemeente</td>
+                        }   
+                    }
+                    
+            </tr>
+        }
+    </tbody>
+</table>

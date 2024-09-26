@@ -1,0 +1,67 @@
+﻿@page
+@model RazorWebAppClient.Pages.KlantModel
+@{
+    var klanten = RazorWebAppClient.Data.Databank.Klanten;
+    var landKlanten = RazorWebAppClient.Data.Databank.KlantenLand;
+    var rowId = 0;
+}
+<div class="text-center">
+    <a class="naav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+    <h1 class="display-4">Klanten</h1>
+    <p>Dit is onze klanten razor page.</p>
+    
+    @foreach (var klant in klanten)
+    {
+     <div>
+         <h3>klantid: @klant.KlantId</h3>
+         <h4>klantnaam: @klant.KlantNaam</h4>
+    </div>
+    }
+    
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">KlantId</th>
+            <th scope="col">KlantNaam</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var klant in klanten)
+        {
+            rowId++;
+            <tr>
+                <th scope="row">@rowId</th>
+                <td>@klant.KlantId</td>
+                <td>@klant.KlantNaam</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Klantentabel met landen</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">KlantId</th>
+            <th scope="col">KlantNaam</th>
+            <th scope="col">KlantLand</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var klant in landKlanten)
+        {
+            rowId++;
+            <tr>
+                <th scope="row">@rowId</th>
+                <td>@klant.KlantId</td>
+                <td>@klant.KlantNaam</td>
+                <td>@klant.KlantLand</td>
+            </tr>
+        }
+    </tbody>
+</table>

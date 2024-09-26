@@ -1,0 +1,35 @@
+﻿@{
+    var t = WebAppMvcClientLocation.Data.Database.Clients;
+
+}
+<div>
+    <h1>Clients</h1>
+    <a asp-page="Create">Create new</a>
+
+</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">ClientID</th>
+            <th scope="col">LocationID</th>
+            <th scope="col">ClientName</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var client in t)
+        {
+            
+            <tr>
+                <td>@client.ClientId</td>
+                <td>@client.LocationId</td>
+                <td>@client.ClientName</td>
+                <td>
+                    <a class="btn btn-secondary">Edit</a>
+                    <a class="btn btn-secondary">Details</a>
+                    <a class="btn btn-secondary">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

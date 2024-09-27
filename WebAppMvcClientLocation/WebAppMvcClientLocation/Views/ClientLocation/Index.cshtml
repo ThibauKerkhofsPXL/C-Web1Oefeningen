@@ -1,0 +1,34 @@
+﻿@{
+    var users = WebAppMvcClientLocation.Data.Database.Clients;
+    var loc = WebAppMvcClientLocation.Data.Database.Locations;
+}
+
+<div>
+    <h1>CLient Location</h1>
+</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">ClientName</th>
+            <th scope="col">City</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var client in users)
+        {
+
+            <tr>
+                <td>@client.ClientName</td>
+                @foreach (var location in loc)
+                {
+                    if (client.LocationId == location.LocationId)
+                    {
+                        <td>
+                            @location.City
+                        </td>
+                    }
+                }
+            </tr>
+        }
+    </tbody>
+</table>

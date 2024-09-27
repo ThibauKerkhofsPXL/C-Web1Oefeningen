@@ -4,14 +4,13 @@ using WebAppMvcClientLocation.Models;
 
 namespace WebAppMvcClientLocation.Controllers
 {
-    public class ClientsController : Controller
+    public class LocationsController : Controller
     {
         public IActionResult Index()
         {
-            var clients = Database.Clients;
-            return View(clients);
+            var locations = Database.Locations;
+            return View(locations);
         }
-
         [HttpGet]
         public IActionResult Create()
         {
@@ -19,10 +18,10 @@ namespace WebAppMvcClientLocation.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Client c)
+        public IActionResult Create(Location c)
         {
-            Database.Clients.Add(c);
-            return RedirectToAction("Index", "Clients");
+            Database.AddLocation(c.PostCode, c.City);
+            return RedirectToAction("Index", "Locations");
         }
     }
 }

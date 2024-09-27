@@ -1,0 +1,35 @@
+﻿@{
+    var loc = WebAppMvcClientLocation.Data.Database.Locations;
+}
+
+<div>
+    <h1>Index</h1>
+    <a asp-controller="Locations" asp-action="Create">Create new</a>
+
+</div>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">LocationID</th>
+            <th scope="col">PostCode</th>
+            <th scope="col">City</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var location in loc)
+        {
+
+            <tr>
+                <td>@location.LocationId</td>
+                <td>@location.PostCode</td>
+                <td>@location.City</td>
+                <td>
+                    <a class="btn btn-secondary">Edit</a>
+                    <a class="btn btn-secondary">Details</a>
+                    <a class="btn btn-secondary">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

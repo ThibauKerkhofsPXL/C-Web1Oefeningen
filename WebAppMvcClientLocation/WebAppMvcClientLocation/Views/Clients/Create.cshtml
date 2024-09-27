@@ -1,2 +1,33 @@
-﻿@{
+﻿@model Client
+@{
+    var loc = WebAppMvcClientLocation.Data.Database.Locations;
+    var lst = new List<SelectListItem>();
+    foreach (var location in loc)
+    {
+        lst.Add(new SelectListItem { Text = location.City, Value = location.City });
+    }
 }
+
+<h1>Create</h1>
+
+<h3>Client</h3>
+<hr />
+<form asp-action="Create" method="post" title="Client">
+    <div class="form-group">
+        <label asp-for="ClientId"></label>
+        <input asp-for="ClientId" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="LocationId"></label>
+        <select asp-for="LocationId" asp-items="@lst" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="ClientName"></label>
+        <input asp-for="ClientName" class="form-control"/>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+<div>
+    <a asp-controller="Clients" asp-action="Index">Back to List</a>
+</div>

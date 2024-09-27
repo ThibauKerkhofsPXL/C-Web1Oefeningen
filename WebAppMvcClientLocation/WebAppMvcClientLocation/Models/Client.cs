@@ -1,4 +1,6 @@
-﻿namespace WebAppMvcClientLocation.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WebAppMvcClientLocation.Models
 {
     public class Client
     {

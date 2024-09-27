@@ -13,9 +13,18 @@ namespace MVCPartyInvites.Controllers
         }
         [HttpPost]
         public IActionResult Reservatie(Gast g)
-        {   
-            LocalData.GastList.Add(g);
-            return RedirectToAction("Index", "Home");
+        {
+            if (ModelState.IsValid)
+            {
+                if (g.Naam == null || g.Naam.Length < 2)
+                {
+                    ModelState.AddModelError("", "Naam is te kort");
+                    return View("Index", g);
+                }
+                LocalData.GastList.Add(g);
+                return RedirectToAction("Index", "Home");
+            }
+                return View("Index", g);
         }
     }
 }

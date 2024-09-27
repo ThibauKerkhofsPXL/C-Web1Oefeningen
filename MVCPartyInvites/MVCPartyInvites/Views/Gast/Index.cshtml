@@ -1,11 +1,13 @@
 ﻿@model Gast
 @{
     var lst = new List<SelectListItem>();
+    lst.Add(new SelectListItem { Text = "Kies één van de opties", Value = "0" });
     lst.Add(new SelectListItem { Text = "Ja", Value = "true" });
     lst.Add(new SelectListItem { Text = "Nee", Value = "false" });
 }
 
 <form asp-action="Reservatie" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
     <div>
         <label asp-for="Naam"></label>
         <input asp-for="Naam" />
@@ -13,6 +15,7 @@
     <div>
         <label asp-for="Email"></label>
         <input asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
     </div>
     <div>
         <label asp-for="Telefoon"></label>

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WebAppMvcClientLocation.CustomModelValidations;
 
 namespace WebAppMvcClientLocation.Models
 {
@@ -7,6 +8,7 @@ namespace WebAppMvcClientLocation.Models
         [Required(ErrorMessage = "Probleem met de clientID")]
         public int? ClientId { get; set; }
         public int? LocationId { get; set; }
+        [CustomNoNumbers]
         public string? ClientName { get; set; }
 
         public Client()

@@ -23,16 +23,29 @@ namespace WebAppMvcClientLocation.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (c.ClientName == null || c.ClientName.Length < 2)
+                if (string.IsNullOrEmpty(c.ClientName) || c.ClientName.Length < 2)
                 {
-                    ModelState.AddModelError("", "ClientName is te kort!");
-                    return RedirectToAction("Index", "Clients");
+                    ModelState.AddModelError("ClientName", "ClientName is te kort!");
+                    return View("Create", c);
                 }
 
+                
+                var result = Database.AddClient(c);
+                if (result.Succeeded == false)
+                {
+                    
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("ClientId", error); 
+                    }
+                    return View("Create", c);
+                }
+
+                
+                return RedirectToAction("Index", "Clients");
             }
 
-            Database.Clients.Add(c);
-            return RedirectToAction("Index", "Clients");
+            return View("Create", c);
         }
     }
 }

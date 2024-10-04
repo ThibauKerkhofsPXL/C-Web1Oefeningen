@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|c:\\users\\thiba\\onedrive\\documenten\\graduaat\\jaar 2\\c#web\\repooef\\mvctestefcore\\mvctestefcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|solutionrelative:mvctestefcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|c:\\users\\thiba\\onedrive\\documenten\\graduaat\\jaar 2\\c#web\\repooef\\mvctestefcore\\mvctestefcore\\controllers\\firsttablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|solutionrelative:mvctestefcore\\controllers\\firsttablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|c:\\users\\thiba\\onedrive\\documenten\\graduaat\\jaar 2\\c#web\\repooef\\mvctestefcore\\mvctestefcore\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|solutionrelative:mvctestefcore\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|c:\\users\\thiba\\onedrive\\documenten\\graduaat\\jaar 2\\c#web\\repooef\\mvctestefcore\\mvctestefcore\\data\\localconnectionstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|solutionrelative:mvctestefcore\\data\\localconnectionstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|c:\\users\\thiba\\onedrive\\documenten\\graduaat\\jaar 2\\c#web\\repooef\\mvctestefcore\\mvctestefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|solutionrelative:mvctestefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|c:\\users\\thiba\\onedrive\\documenten\\graduaat\\jaar 2\\c#web\\repooef\\mvctestefcore\\mvctestefcore\\models\\firsttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|solutionrelative:mvctestefcore\\models\\firsttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|c:\\users\\thiba\\onedrive\\documenten\\graduaat\\jaar 2\\c#web\\repooef\\mvctestefcore\\mvctestefcore\\views\\firsttable\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87C1B273-2123-420C-958C-23080BEA15E5}|MVCTestEFCore\\MVCTestEFCore.csproj|solutionrelative:mvctestefcore\\views\\firsttable\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thiba\\AppData\\Local\\Temp\\drxiodvb..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thiba\\AppData\\Local\\Temp\\drxiodvb..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thiba\\AppData\\Local\\Temp\\drxiodvb..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCTestEFCore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCTestEFCore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T07:45:06.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\thiba\\AppData\\Local\\Temp\\drxiodvb..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\drxiodvb..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-03T07:32:03.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Views\\FirstTable\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCTestEFCore\\Views\\FirstTable\\Index.cshtml",
+              "ToolTip": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Views\\FirstTable\\Index.cshtml",
+              "RelativeToolTip": "MVCTestEFCore\\Views\\FirstTable\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T07:30:31.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FirstTableController.cs",
+              "DocumentMoniker": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Controllers\\FirstTableController.cs",
+              "RelativeDocumentMoniker": "MVCTestEFCore\\Controllers\\FirstTableController.cs",
+              "ToolTip": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Controllers\\FirstTableController.cs",
+              "RelativeToolTip": "MVCTestEFCore\\Controllers\\FirstTableController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:29:20.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FirstTable.cs",
+              "DocumentMoniker": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Models\\FirstTable.cs",
+              "RelativeDocumentMoniker": "MVCTestEFCore\\Models\\FirstTable.cs",
+              "ToolTip": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Models\\FirstTable.cs",
+              "RelativeToolTip": "MVCTestEFCore\\Models\\FirstTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:27:56.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Program.cs",
+              "RelativeDocumentMoniker": "MVCTestEFCore\\Program.cs",
+              "ToolTip": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Program.cs",
+              "RelativeToolTip": "MVCTestEFCore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:25:46.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocalConnectionString.cs",
+              "DocumentMoniker": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Data\\LocalConnectionString.cs",
+              "RelativeDocumentMoniker": "MVCTestEFCore\\Data\\LocalConnectionString.cs",
+              "ToolTip": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Data\\LocalConnectionString.cs",
+              "RelativeToolTip": "MVCTestEFCore\\Data\\LocalConnectionString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:22:43.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MVCTestEFCore\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\thiba\\OneDrive\\Documenten\\Graduaat\\Jaar 2\\C#Web\\RepoOef\\MVCTestEFCore\\MVCTestEFCore\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MVCTestEFCore\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:19:21.871Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

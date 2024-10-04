@@ -21,6 +21,16 @@ namespace WebAppMvcClientLocation.Controllers
         [HttpPost]
         public IActionResult Create(Client c)
         {
+            if (ModelState.IsValid)
+            {
+                if (c.ClientName == null || c.ClientName.Length < 2)
+                {
+                    ModelState.AddModelError("", "ClientName is te kort!");
+                    return RedirectToAction("Index", "Clients");
+                }
+
+            }
+
             Database.Clients.Add(c);
             return RedirectToAction("Index", "Clients");
         }

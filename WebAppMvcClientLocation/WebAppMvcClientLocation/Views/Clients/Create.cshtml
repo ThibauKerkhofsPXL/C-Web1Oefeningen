@@ -4,7 +4,7 @@
     var lst = new List<SelectListItem>();
     foreach (var location in loc)
     {
-        lst.Add(new SelectListItem { Text = location.City, Value = location.City });
+        lst.Add(new SelectListItem { Text = location.City, Value = location.LocationId.ToString() });
     }
 }
 
